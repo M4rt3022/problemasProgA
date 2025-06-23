@@ -1,5 +1,4 @@
 # Guia-de-ejercicios-ProgA-Info2
-
 Repositorio creado por estudiantes de la facultad de ingeniería de la UNSJ para facilitar el estudio de las materias de programación A e informática 2.
 
 La guía de ejercicios que se utilizará será la 'GuiaPractica-v2024' subida por los profesores a la plataforma.
@@ -12,28 +11,26 @@ La misma cuenta con 141 ejercicios de programación en lenguaje C, algunos resue
 Esta misma contendrá los directorios con las guías de práctica que se añadan, contendrá los enunciados, TOPDOWNS y resoluciones de profesores, la misma no será cambiada exceptuando posibles modificaciones de enunciados que hagan los profesores.
 
 # GuiaPractica-v2024
-	Guía-de-práctica-N1-Problemas-resueltos-y-propuestos-sin-utilizar-funciones
+	Guía de práctica N1 Problemas resueltos y propuestos sin utilizar funciones
 	1 al 17
-		Análisis-mediante-un-conjunto-de-datos-de-prueba		1
-		Problemas-resueltos-y-propuestos-sin-funciones			2 al 17
-	Guía-de-práctica-N2-Problemas-resueltos-y-propuestos-con-funciones,-arreglos,-matrices-y-strings
-	Problema 18 al 78
-		Problemas-con-funciones,-arreglos-y-strings			18 al 23
-		Problemas-resueltos-con-matrices-y-vectores			24 al 29
-		Problemas-resueltos-con-strings					30 al 41
-		Problemas-propuestos-utilizando-arreglos			42 al 48
-		Problemas-propuestos-con-matrices-y-vectores			49 al 58
-		Problemas-propuestos-utilizando-strings				59 al 70
-		Problemas-propuestos-utilizando-arreglos-numéricos-y-strings	71 al 78
-	Guía-de-práctica-N3-Problemas-resueltos-y-propuestos-con-punteros-estructuras-y-archivos
-	Problema 79 al 141
-		Problemas-resueltos-con-punteros				79 al 80
-		Problemas-resueltos-con-punteros-y-arreglos-dinámicos		81 al 87
-		Problemas-propuestos-con-punteros				88 al 90
-		Problemas-resueltos-con-estructuras				91 al 92
-		Problemas-propuestos-con-estructuras				93 al 108
-		Problemas-resueltos-sobre-operaciones-básicas-con-archivos	109 al 113
-		Problemas-propuestos-con-estructuras-y-archivos			114 al 141
+		Análisis-mediante-un-conjunto-de-datos-de-prueba            		1
+		Problemas-resueltos-y-propuestos-sin-funciones			            2 al 17
+	Guía de práctica N2	Problema 18 al 78
+		Problemas-con-funciones,-arreglos-y-strings			                18 al 23
+		Problemas-resueltos-con-matrices-y-vectores			                24 al 29
+		Problemas-resueltos-con-strings					                    30 al 41
+		Problemas-propuestos-utilizando-arreglos			                42 al 48
+		Problemas-propuestos-con-matrices-y-vectores			            49 al 58
+		Problemas-propuestos-utilizando-strings				                59 al 70
+		Problemas-propuestos-utilizando-arreglos-numéricos-y-strings	    71 al 78
+	Guía de práctica N3	Problema 79 al 141
+		Problemas-resueltos-con-punteros				                    79 al 80
+		Problemas-resueltos-con-punteros-y-arreglos-dinámicos		        81 al 87
+		Problemas-propuestos-con-punteros				                    88 al 90
+		Problemas-resueltos-con-estructuras				                    91 al 92
+		Problemas-propuestos-con-estructuras				                93 al 108
+		Problemas-resueltos-sobre-operaciones-básicas-con-archivos	        109 al 113
+		Problemas-propuestos-con-estructuras-y-archivos			            114 al 141
 
 # La rama soluciones-alumnos
 Sigue el mismo arbol de directorios que main, tendrá cada ejercicio resuelto por nosotros siguiendo el flujo de trabajo obligatorio
@@ -51,9 +48,7 @@ Sigue el mismo arbol de directorios que main, tendrá cada ejercicio resuelto po
 		// Acá tiene que ir cómo se hace
 # Datos que tiene cada ejercicio
 	- Un README.md con el enunciado, codigo adicional, estructuras y notas pertinentes al ejercicio
- 		el nombre del archivo tiene el siguiente formato: README-PROBLEMA-<numero>.md
  	- Si existe, un TOPDOWN del problema
-  		el nombre del archivo tiene el siguiente formato: TOPDOWN-PROBLEMA-<numero>.png/jpg o el formato que admita github
   	- Archivo fuente C, archivos de cabecera, binarios y .txt necesarios
    		el nombre del archivo tiene el siguiente formato: problema<numero>.c
      	para archivos que requiera el ejercicio: nombreArchivo.bin/.txt segun se requiera
