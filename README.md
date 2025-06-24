@@ -1,4 +1,4 @@
-# Guia-de-ejercicios-ProgA-Info2
+# Guia de ejercicios ProgA Info2
 Repositorio creado por estudiantes de la facultad de ingeniería de la UNSJ para facilitar el estudio de las materias de programación A e informática 2.
 
 La guía de ejercicios que se utilizará será la 'GuiaPractica-v2024' subida por los profesores a la plataforma.
@@ -35,23 +35,16 @@ Esta misma contendrá los directorios con las guías de práctica que se añadan
 Sigue el mismo arbol de directorios que main, tendrá cada ejercicio resuelto por nosotros siguiendo el flujo de trabajo obligatorio
 
 # pasos para realizar problemas en el repositorio
-	1. instalar git
- 		- linux: 
-   			- debian - ubuntu: 'sudo apt-get install git-all'
-	   		- ark: 'pacman -S git'
-   		- windows:
-     			// aca debe ir como
-     		- macOS:
-       			// aca debe ir como
-	2. Clonar repositorio a la máquina local del alumno
- 		'git clone https://github.com/M4rt3022/problemasProgA.git'
-	3. Trabajar en la rama soluciones-alumnos
+	1. Clonar repositorio a la máquina local del alumno
+        ##
+ 		        git clone https://github.com/M4rt3022/problemasProgA.git
+	2. Trabajar en la rama soluciones-alumnos
 		// Acá tiene que ir cómo se hace
-	4. (opcional) Crear una rama propia
+	3. (opcional) Crear una rama propia
 		// Acá tiene que ir cómo se hace
-  	5. Resolver y subir ejercicio
+    4. Resolver y subir ejercicio
 		// Acá tiene que ir cómo se hace
-	6. Hacer pull request
+	5. Hacer pull request
 		// Acá tiene que ir cómo se hace
 # Datos que tiene cada ejercicio
 	- Un README.md con el enunciado, codigo adicional, estructuras y notas pertinentes al ejercicio
