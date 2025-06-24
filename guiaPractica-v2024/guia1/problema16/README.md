@@ -20,6 +20,7 @@ d) Cuanto se recaudó en total, sabiendo que el precio base es de $2, agregándo
 e) Hacer un análisis del funcionamiento del algoritmo mediante un conjunto de datos de prueba , 
 completando en una tabla los valores de las variables más significantes del algoritmo, tal como el 
 ejemplo modelo.
+
 # RESOLUCION PROBLEMA 16
     #include <stdio.h>
         int main( ) {

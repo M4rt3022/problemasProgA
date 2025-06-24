@@ -8,6 +8,7 @@ c) El promedio de todos los datos ingresados, excluyendo si se ingresa el –50.
 
 # NOTAS
 Recordar que el operador %(módulo) se usa para obtener al resto de la división entera.
+
 # RESOLUCION PROBLEMA 2
     #include <stdio.h>
         int main( ) {

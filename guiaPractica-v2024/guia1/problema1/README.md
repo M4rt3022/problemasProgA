@@ -14,6 +14,7 @@ ingresada por teclado). El resultado final será de 26=64 (variable prod=64 que 
 teclado).
 De esta manera se puede verificar que los datos obtenidos en el programa diseñado coinciden 
 con los datos calculados antes de hacer correr el programa en C.
+
 # RESOLUCION PROBLEMA 1
     #include <stdio.h>
         int main( ) {
