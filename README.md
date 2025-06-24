@@ -33,12 +33,14 @@ Esta misma contendrá los directorios con las guías de práctica que se añadan
 
 # La rama solucionesAlumnos
 Sigue el mismo arbol de directorios que main, tendrá cada ejercicio resuelto por los alumnos
-como clonar el repositorio
+# comandos a utilizar
+clonar el repositorio en tu computadora
 ##
 	git clone https://github.com/M4rt3022/problemasProgA.git
-como clonar solo la rama de soluciones-alumnos
+clonar solo la rama de soluciones-alumnos
 ##
 	git clone https://github.com/M4rt3022/problemasProgA.git --branch soluciones-alumnos
+
 # Datos que tiene cada ejercicio
 	- Un README.md con el enunciado, codigo adicional, estructuras y notas pertinentes al ejercicio
  	- Si existe, un TOPDOWN del problema
