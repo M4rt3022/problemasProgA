@@ -41,7 +41,11 @@ Sigue el mismo arbol de directorios que main, tendrá cada ejercicio resuelto po
 	pacman -S git
 ## Windows y MacOs
 
-   Se debe descargar git desde: https://git-scm.com/downloads
+   ### Se debe descargar git desde:
+   #### Para windows:
+   https://git-scm.com/downloads/win
+   #### Para MacOs:
+   https://git-scm.com/downloads/mac
    
    Se recomienda también descargar github desktop si se quiere colaborar con el proyecto: https://desktop.github.com/download/
    
