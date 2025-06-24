@@ -42,6 +42,7 @@ Sigue el mismo arbol de directorios que main, tendrá cada ejercicio resuelto po
 ## windows
 
    Se debe descargar git desde: https://git-scm.com/downloads
+   
    Se recomienda también descargar github desktop si se quiere colaborar con el proyecto: https://desktop.github.com/download/
    ```bash
 	git clone https://github.com/M4rt3022/problemasProgA.git
