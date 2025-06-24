@@ -31,29 +31,27 @@ Esta misma contendrá los directorios con las guías de práctica que se añadan
 		Problemas resueltos sobre operaciones básicas con archivos	        109 al 113
 		Problemas propuestos con estructuras y archivos			        114 al 141
 
-# La rama soluciones-alumnos
+# La rama solucionesAlumnos
 Sigue el mismo arbol de directorios que main, tendrá cada ejercicio resuelto por nosotros siguiendo el flujo de trabajo obligatorio
 
-# Flujo de trabajo en soluciones-alumnos
-	Paso 0: tener instalado git
- 		(linux)
-   			(debian-ubuntu)
-      				sudo apt-get install git-all
-	  		(ark)
-     				pacman -S git
-   		(windows)
+# pasos para realizar problemas en el repositorio
+	1. instalar git
+ 		- linux: 
+   			- debian - ubuntu: `sudo apt-get install git-all`
+	   		- ark: `pacman -S git`
+   		- windows:
      			// aca debe ir como
-     		(macOS)
+     		- macOS:
        			// aca debe ir como
-	Paso 1: Clonar repositorio a la máquina local del alumno
- 		git clone https://github.com/M4rt3022/problemasProgA.git
-	Paso 2: Trabajar en la rama soluciones-alumnos
+	2. Clonar repositorio a la máquina local del alumno
+ 		`git clone https://github.com/M4rt3022/problemasProgA.git`
+	3. Trabajar en la rama soluciones-alumnos
 		// Acá tiene que ir cómo se hace
-	Paso 3: (opcional) Crear una rama propia
+	4. (opcional) Crear una rama propia
 		// Acá tiene que ir cómo se hace
-	Paso 4: Resolver y subir ejercicio
+  	5. Resolver y subir ejercicio
 		// Acá tiene que ir cómo se hace
-	Paso 5: Hacer pull request
+	6. Hacer pull request
 		// Acá tiene que ir cómo se hace
 # Datos que tiene cada ejercicio
 	- Un README.md con el enunciado, codigo adicional, estructuras y notas pertinentes al ejercicio
