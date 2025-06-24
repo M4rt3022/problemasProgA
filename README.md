@@ -39,25 +39,20 @@ Sigue el mismo arbol de directorios que main, tendrá cada ejercicio resuelto po
 	sudo apt-get install git-all 
 ## ark
 	pacman -S git
-## windows
+## Windows y MacOs
 
    Se debe descargar git desde: https://git-scm.com/downloads
    
    Se recomienda también descargar github desktop si se quiere colaborar con el proyecto: https://desktop.github.com/download/
-   ```bash
-	git clone https://github.com/M4rt3022/problemasProgA.git
-```
-
-## macOS
-  	//debe ir como hacerlo
+   
 **clonar repositorio localmente**
-## 
-	git clone https://github.com/M4rt3022/problemasProgA.git
- 
+```bash
+git clone https://github.com/M4rt3022/problemasProgA.git
+```
 **clonar solo la rama de soluciones-alumnos**
-##
-	git clone https://github.com/M4rt3022/problemasProgA.git --branch soluciones-alumnos
- 
+```bash
+git clone https://github.com/M4rt3022/problemasProgA.git --branch soluciones-alumnos
+```
 # Datos que tiene cada ejercicio
 	- Un README.md con el enunciado, codigo adicional, estructuras y notas pertinentes al ejercicio
  	- Si existe, un TOPDOWN del problema
