@@ -34,21 +34,24 @@ Esta misma contendrá los directorios con las guías de práctica que se añadan
 # La rama solucionesAlumnos
 Sigue el mismo arbol de directorios que main, tendrá cada ejercicio resuelto por los alumnos
 # comandos a utilizar
-instalar git
+**instalar git**
 - linux
-## debian-ubuntu-mint
+## debian/ubuntu/mint
 	sudo apt-get install git-all 
 ## ark
 	pacman -S git
 - windows
+  	//debe ir como hacerlo
 - macOS
-clonar el repositorio en tu computadora
-##
+  	//debe ir como hacerlo
+**clonar repositorio localmente**
+## 
 	git clone https://github.com/M4rt3022/problemasProgA.git
+ 
 clonar solo la rama de soluciones-alumnos
 ##
 	git clone https://github.com/M4rt3022/problemasProgA.git --branch soluciones-alumnos
-
+ 
 # Datos que tiene cada ejercicio
 	- Un README.md con el enunciado, codigo adicional, estructuras y notas pertinentes al ejercicio
  	- Si existe, un TOPDOWN del problema
