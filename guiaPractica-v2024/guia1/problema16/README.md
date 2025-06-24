@@ -20,3 +20,59 @@ d) Cuanto se recaudó en total, sabiendo que el precio base es de $2, agregándo
 e) Hacer un análisis del funcionamiento del algoritmo mediante un conjunto de datos de prueba , 
 completando en una tabla los valores de las variables más significantes del algoritmo, tal como el 
 ejemplo modelo.
+# RESOLUCION PROBLEMA 16
+    #include <stdio.h>
+        int main( ) {
+        int codigo,conttotal=0,contpeso=0,contI=0,contM=0,contC=0;
+        float peso, prom, porc, dist, sumapeso=0,recaud=0,agregoKm,agregoKg;
+        char formae;
+        printf("Ingrese peso:\n");
+        scanf("%f%*c", &peso);
+        printf("Ingrese distancia:\n");
+        scanf("%f%*c", &dist);
+        printf("Ingrese forma de entrega:\n");
+        scanf("%c%*c", &formae);
+        while( peso > 0 && dist < 3000) {
+        printf("Ingrese codigo de identificacion:\n");
+        scanf("%d%*c", &codigo);
+        conttotal++;
+        if( peso > 4000 && formae != 'i' ) {
+            sumapeso += peso;
+            contpeso++;
+        }
+        if( dist <= 12 && codigo >= 150 && codigo <= 215 ) {
+            printf("El paquete codigo %d no es larga distancia.\n", codigo);
+        }
+        if( formae == 'i' ) contI++;
+        if( formae == 'm' ) contM++;
+        if( formae == 'c' ) contC++;
+        agregoKm = 0.10 * (((int)dist)/3);
+        if( peso <= 200 )
+            agregoKg=0;
+        else
+            agregoKg= (int)((peso-200) / 100) * 0.05;
+            recaud += 2; // Precio fijo por paquete
+            recaud += agregoKm; // Adicional por distancia
+            recaud += agregoKg; // Adicional por peso
+            printf("Ingrese peso:\n");
+            scanf("%f%*c", &peso);
+            printf("Ingrese distancia:\n");
+            scanf("%f%*c", &dist);
+            printf("Ingrese forma de entrega:\n");
+            scanf("%c%*c", &formae);
+        }
+        if( contpeso > 0 ) {
+            printf("Promedio de peso de paquetes a entregar: %f%*c",
+            sumapeso/contpeso);
+        } else {
+            printf("No se entregaron paquetes con la condición de peso promedio.");
+        }
+        if( contI >= contM && contI >= contC )
+            printf("El destino inmediato se hace con un porcentaje de: %f",(float)contI/conttotal*100);
+        if( contM > contI && contM >= contC )
+            printf("El destino inmediato se hace con mas frecuencia en: %f",(float)contM/conttotal*100);
+        if( contC > contM && contC >= contI )
+            printf("El destino inmediato se hace con mas frecuencia en un porcentaje de: %f", (float)contC/conttotal*100);
+        printf("Se recaudo en total: %f\n", recaud);
+        return 0;
+    }
