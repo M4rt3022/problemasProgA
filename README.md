@@ -11,33 +11,42 @@ La misma cuenta con 141 ejercicios de programación en lenguaje C, algunos resue
 Esta misma contendrá los directorios con las guías de práctica que se añadan, contendrá los enunciados, TOPDOWNS y resoluciones de profesores, la misma no será cambiada exceptuando posibles modificaciones de enunciados que hagan los profesores.
 
 # GuiaPractica-v2024
-	Guía de práctica N1 Problemas resueltos y propuestos sin utilizar funciones
-	1 al 17
-		Análisis-mediante-un-conjunto-de-datos-de-prueba            		1
-		Problemas-resueltos-y-propuestos-sin-funciones			            2 al 17
+	Guía de práctica N1 	Problema 1 al 17
+		Análisis mediante un conjunto de datos de prueba            		1
+		Problemas resueltos y propuestos sin funciones			      	2 al 17
 	Guía de práctica N2	Problema 18 al 78
-		Problemas-con-funciones,-arreglos-y-strings			                18 al 23
-		Problemas-resueltos-con-matrices-y-vectores			                24 al 29
-		Problemas-resueltos-con-strings					                    30 al 41
-		Problemas-propuestos-utilizando-arreglos			                42 al 48
-		Problemas-propuestos-con-matrices-y-vectores			            49 al 58
-		Problemas-propuestos-utilizando-strings				                59 al 70
-		Problemas-propuestos-utilizando-arreglos-numéricos-y-strings	    71 al 78
+		Problemas con funciones, arreglos y strings			        18 al 23
+		Problemas resueltos con matrices y vectores			        24 al 29
+		Problemas resueltos con-strings					        30 al 41
+		Problemas propuestos utilizando arreglos			        42 al 48
+		Problemas propuestos con matrices y vectores			        49 al 58
+		Problemas propuestos utilizando strings				        59 al 70
+		Problemas propuestos utilizando arreglos numéricos y strings	    	71 al 78
 	Guía de práctica N3	Problema 79 al 141
-		Problemas-resueltos-con-punteros				                    79 al 80
-		Problemas-resueltos-con-punteros-y-arreglos-dinámicos		        81 al 87
-		Problemas-propuestos-con-punteros				                    88 al 90
-		Problemas-resueltos-con-estructuras				                    91 al 92
-		Problemas-propuestos-con-estructuras				                93 al 108
-		Problemas-resueltos-sobre-operaciones-básicas-con-archivos	        109 al 113
-		Problemas-propuestos-con-estructuras-y-archivos			            114 al 141
+		Problemas resueltos con punteros				        79 al 80
+		Problemas resueltos con punteros y arreglos dinámicos		        81 al 87
+		Problemas propuestos con punteros				        88 al 90
+		Problemas resueltos con estructuras				        91 al 92
+		Problemas propuestos con estructuras				        93 al 108
+		Problemas resueltos sobre operaciones básicas con archivos	        109 al 113
+		Problemas propuestos con estructuras y archivos			        114 al 141
 
 # La rama soluciones-alumnos
 Sigue el mismo arbol de directorios que main, tendrá cada ejercicio resuelto por nosotros siguiendo el flujo de trabajo obligatorio
 
 # Flujo de trabajo en soluciones-alumnos
+	Paso 0: tener instalado git
+ 		(linux)
+   			(debian-ubuntu)
+      				sudo apt-get install git-all
+	  		(ark)
+     				pacman -S git
+   		(windows)
+     			// aca debe ir como
+     		(macOS)
+       			// aca debe ir como
 	Paso 1: Clonar repositorio a la máquina local del alumno
-		// Acá tiene que ir como se hace
+ 		git clone https://github.com/M4rt3022/problemasProgA.git
 	Paso 2: Trabajar en la rama soluciones-alumnos
 		// Acá tiene que ir cómo se hace
 	Paso 3: (opcional) Crear una rama propia
