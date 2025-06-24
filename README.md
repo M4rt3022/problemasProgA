@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f07074ee-9417-49e4-b177-395d54d0b6c7)# Guia de ejercicios ProgA Info2
+# Guia de ejercicios ProgA Info2
 Repositorio creado por estudiantes de la facultad de ingeniería de la UNSJ para facilitar el estudio de las materias de programación A e informática 2.
 
 La guía de ejercicios que se utilizará será la 'GuiaPractica-v2024' subida por los profesores a la plataforma.
