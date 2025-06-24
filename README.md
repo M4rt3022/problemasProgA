@@ -32,20 +32,13 @@ Esta misma contendrá los directorios con las guías de práctica que se añadan
 		Problemas propuestos con estructuras y archivos			        114 al 141
 
 # La rama solucionesAlumnos
-Sigue el mismo arbol de directorios que main, tendrá cada ejercicio resuelto por nosotros siguiendo el flujo de trabajo obligatorio
-
-# pasos para realizar problemas en el repositorio
-	1. Clonar repositorio a la máquina local del alumno
-        ##
- 		        git clone https://github.com/M4rt3022/problemasProgA.git
-	2. Trabajar en la rama soluciones-alumnos
-		// Acá tiene que ir cómo se hace
-	3. (opcional) Crear una rama propia
-		// Acá tiene que ir cómo se hace
-    4. Resolver y subir ejercicio
-		// Acá tiene que ir cómo se hace
-	5. Hacer pull request
-		// Acá tiene que ir cómo se hace
+Sigue el mismo arbol de directorios que main, tendrá cada ejercicio resuelto por los alumnos
+como clonar el repositorio
+##
+	git clone https://github.com/M4rt3022/problemasProgA.git
+como clonar solo la rama de soluciones-alumnos
+##
+	git clone https://github.com/M4rt3022/problemasProgA.git --branch soluciones-alumnos
 # Datos que tiene cada ejercicio
 	- Un README.md con el enunciado, codigo adicional, estructuras y notas pertinentes al ejercicio
  	- Si existe, un TOPDOWN del problema
