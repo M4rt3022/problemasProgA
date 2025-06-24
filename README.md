@@ -1,4 +1,4 @@
-# Guia de ejercicios ProgA Info2
+![image](https://github.com/user-attachments/assets/f07074ee-9417-49e4-b177-395d54d0b6c7)# Guia de ejercicios ProgA Info2
 Repositorio creado por estudiantes de la facultad de ingeniería de la UNSJ para facilitar el estudio de las materias de programación A e informática 2.
 
 La guía de ejercicios que se utilizará será la 'GuiaPractica-v2024' subida por los profesores a la plataforma.
@@ -40,7 +40,13 @@ Sigue el mismo arbol de directorios que main, tendrá cada ejercicio resuelto po
 ## ark
 	pacman -S git
 ## windows
-  	//debe ir como hacerlo
+
+   Se debe descargar git desde: https://git-scm.com/downloads
+   Se recomienda también descargar github desktop si se quiere colaborar con el proyecto: https://desktop.github.com/download/
+   ```bash
+	git clone https://github.com/M4rt3022/problemasProgA.git
+```
+
 ## macOS
   	//debe ir como hacerlo
 **clonar repositorio localmente**
