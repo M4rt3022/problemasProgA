@@ -14,3 +14,20 @@ ingresada por teclado). El resultado final será de 26=64 (variable prod=64 que 
 teclado).
 De esta manera se puede verificar que los datos obtenidos en el programa diseñado coinciden 
 con los datos calculados antes de hacer correr el programa en C.
+# RESOLUCION PROBLEMA 1
+    #include <stdio.h>
+        int main( ) {
+        int base, nro_repeticiones;
+        float exp, prod=1;
+        printf("\n Ingrese el valor de la base: ");
+        scanf("%f%*c", &base);
+        printf("\n Ingrese el valor del exponente: ");
+        scanf("%d%*c", &exp);
+        for( nro_repeticiones=1; nro_repeticiones <= exp; nro_repeticiones++ ) {
+            prod *= base; /* Equivale a colocar prod = prod * base */
+            printf( "En la repeticion:%d\n", nro_repeticiones);
+            printf( "En esta vuelta el valor de producto corresponde:%f\n\n", prod );
+        }
+        printf("\n\n El valor de la base elevado al exponente es:%f\n", prod );
+        return 0;
+    }
