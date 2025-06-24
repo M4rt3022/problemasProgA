@@ -37,14 +37,14 @@ Sigue el mismo arbol de directorios que main, tendrá cada ejercicio resuelto po
 # pasos para realizar problemas en el repositorio
 	1. instalar git
  		- linux: 
-   			- debian - ubuntu: `sudo apt-get install git-all`
-	   		- ark: `pacman -S git`
+   			- debian - ubuntu: 'sudo apt-get install git-all'
+	   		- ark: 'pacman -S git'
    		- windows:
      			// aca debe ir como
      		- macOS:
        			// aca debe ir como
 	2. Clonar repositorio a la máquina local del alumno
- 		`git clone https://github.com/M4rt3022/problemasProgA.git`
+ 		'git clone https://github.com/M4rt3022/problemasProgA.git'
 	3. Trabajar en la rama soluciones-alumnos
 		// Acá tiene que ir cómo se hace
 	4. (opcional) Crear una rama propia
