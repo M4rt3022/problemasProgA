@@ -37,6 +37,7 @@ Recordar que el operador %(módulo) se usa para obtener al resto de la división
 # NOTAS
 hacer un análisis del funcionamiento del algoritmo mediante un conjunto de datos de prueba, completando los valores de la tabla,tal como ejemplo modelo
 |dato|conttotal|contpa|sum|porc|prom|
+|----|----|----|----|----|----|
 |2||||||
 |17||||||
 |26||||||
