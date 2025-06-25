@@ -34,3 +34,13 @@ Recordar que el operador %(módulo) se usa para obtener al resto de la división
         printf( "El promedio de los datos ingresados es: %8.2f\n", prom);
         return 0;
     }
+# NOTAS
+hacer un análisis del funcionamiento del algoritmo mediante un conjunto de datos de prueba, completando los valores de la tabla,tal como ejemplo modelo
+|dato|conttotal|contpa|sum|porc|prom|
+|2||||||
+|17||||||
+|26||||||
+|122||||||
+|1||||||
+|45||||||
+|-50||||||

@@ -32,3 +32,12 @@ con los datos calculados antes de hacer correr el programa en C.
         printf("\n\n El valor de la base elevado al exponente es:%f\n", prod );
         return 0;
     }
+# NOTAS
+la siguiente tabla muestra el conjunto de datos de prueba
+|base|exp|Nro de repeticion|prod|
+|2|6|1|2|
+|2|6|2|4|
+|2|6|3|8|
+|2|6|4|16|
+|2|6|5|32|
+|2|6|6|64|
