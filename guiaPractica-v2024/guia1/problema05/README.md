@@ -9,6 +9,7 @@ c) Mostrar el mayor espesor de los productos ingresados.
 d) Hacer un análisis del funcionamiento del algoritmo mediante un conjunto de datos de prueba, 
 completando los valores de la tabla, tal como el ejemplo modelo.
 |espesor|cont|max_espesor|suma|cont_rechaz|prom|
+|---|---|---|---|---|---|
 ||1|||||
 ||2|||||
 ||3|||||
